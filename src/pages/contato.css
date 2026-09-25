@@ -1,4 +1,3 @@
-
 .pagina-contato {
   min-height: 85vh;
   display: flex;
@@ -30,6 +29,9 @@
 }
 
 .contatos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 14px 25px;
   border: 1px solid #58a6ff;
   border-radius: 6px;
@@ -38,6 +40,26 @@
 }
 
 .contatos a:hover {
+  background-color: #58a6ff;
+  color: #0d1117;
+}
+
+.contato-texto {
+  color: #58a6ff;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-bottom: 35px;
+}
+
+.contatos a {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.contatos a:focus,
+.contatos a:active {
+  outline: none;
   background-color: #58a6ff;
   color: #0d1117;
 }

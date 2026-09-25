@@ -43,3 +43,20 @@
   color: #3fb950;
   font-size: 14px;
 }
+
+.titulo-projeto{
+  background-color: transparent;
+}
+
+.descricao-projeto{
+  background-color: transparent;
+}
+
+.tecnologias-projeto{
+  background-color: transparent;
+}
+
+.titulo-pagina{
+  background-color: transparent;
+  color: #58a6ff;
+}

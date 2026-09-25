@@ -1,35 +1,37 @@
-
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import './contato.css';
 
 function Contato() {
   return (
     <main className="pagina-contato">
-      <h1>Entre em contato</h1>
+      <h1 className='contato-texto'>Entre em contato</h1>
 
-      <p>
+      <p className="contato-texto">
         Quer conversar sobre projetos, oportunidades ou
         tecnologia? Entre em contato comigo.
       </p>
 
       <div className="contatos">
-        <a href="mailto:seuemail@exemplo.com">
-          E-mail
+        <a href="mailto:pedrolrc27@gmail.com" aria-label="E-mail">
+          <FaEnvelope size={28} />
         </a>
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/pedro-lucas-rodrigues-cordeiro-8751492b1"
           target="_blank"
           rel="noreferrer"
+          aria-label="LinkedIn"
         >
-          LinkedIn
+          <FaLinkedinIn size={28} />
         </a>
 
         <a
-          href="https://github.com/"
+          href="https://github.com/pelu77"
           target="_blank"
           rel="noreferrer"
+          aria-label="GitHub"
         >
-          GitHub
+          <FaGithub size={28} />
         </a>
       </div>
     </main>

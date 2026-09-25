@@ -1,0 +1,76 @@
+.pagina-cursos {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.cursos-titulo {
+  color: #58a6ff;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.cursos-subtitulo {
+  color: #8b949e;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-bottom: 45px;
+}
+
+.cursos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+}
+
+.curso-card {
+  background-color: #0d1117;
+  border: 1px solid #58a6ff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  min-height: 220px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.curso-card:hover {
+  border-color: #79c0ff;
+  transform: translateY(-4px);
+}
+
+.curso-card h2 {
+  color: #e6edf3;
+  font-size: 20px;
+  margin-bottom: 6px;
+  background-color: transparent;
+}
+
+.curso-instituicao {
+  color: #58a6ff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+  background-color: transparent;
+}
+
+.curso-aprendizado {
+  color: #8b949e;
+  font-size: 15px;
+  line-height: 1.6;
+  flex-grow: 1;
+  background-color: transparent;
+}
+
+.cursos-titulo{
+    background-color: transparent;
+}
