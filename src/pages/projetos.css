@@ -1,0 +1,45 @@
+
+.pagina-projetos {
+  min-height: 85vh;
+  padding: 70px 8%;
+}
+
+.pagina-projetos h1 {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.lista-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card-projeto {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.card-projeto:hover {
+  transform: translateY(-5px);
+  border-color: #58a6ff;
+}
+
+.card-projeto h2 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+}
+
+.card-projeto p {
+  color: #8b949e;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.card-projeto span {
+  color: #3fb950;
+  font-size: 14px;
+}
